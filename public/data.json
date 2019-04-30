@@ -1,0 +1,55 @@
+{
+   
+            "apps": [{
+                "appId":1,
+                "appName":"My first applet",
+                "appDescription":"this is applet description this is applet description this is applet description",
+                "appUpdate":"",
+                "appUser":"avi",
+                "appIcon":""
+               
+            },{
+                "appId":2,
+                "appName":"My second applet",
+                "appDescription":"this is applet description this is applet description this is applet description",
+                "appUpdate":"",
+                "appUser":"avi",
+                "appIcon":""
+               
+            },{"appId":3,
+                "appName":"My third applet",
+                "appDescription":"this is applet description this is applet description this is applet description",
+                "appUpdate":"",
+                "appUser":"avi",
+                "appIcon":""
+               
+            },{"appId":4,
+                "appName":"My Fourth applet",
+                "appDescription":"this is applet description this is applet description this is applet description",
+                "appUpdate":"",
+                "appUser":"avi",
+                "appIcon":""
+               
+            },{"appId":5,
+                "appName":"My Fifth applet",
+                "appDescription":"this is applet description this is applet description this is applet description",
+                "appUpdate":"",
+                "appUser":"avi",
+                "appIcon":""
+               
+            },{"appId":6,
+                "appName":"My avi applet",
+                "appDescription":"this is applet description this is applet description this is applet description",
+                "appUpdate":"",
+                "appUser":"avi",
+                "appIcon":""
+               
+            }
+        
+        ]
+
+
+       
+
+}
+

@@ -1,0 +1,93 @@
+.ReactModalPortal > div {
+  opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: opacity 200ms ease-in-out;
+  bottom: 0px;
+}
+.row label{
+  font-size: 14px;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.modal {
+  position: static;
+  display: block;
+  color: black;
+  max-width: 60rem;
+  outline: none;
+  padding: $l-size;
+  text-align: center;
+  width:  280px;
+  line-height: 150%;
+  border: 1px solid;
+  box-shadow: 10px 13px 5px -2px rgba(0, 0, 0, 0.75);
+  background-color: whitesmoke;
+ 
+  @media (min-width: $desktop-breakpoint) {
+   
+    width: 500px;
+  }
+ 
+}
+form div div {
+  text-align: left;
+}
+.modal__title {
+  margin: 0 0 $m-size 0;
+}
+h1{
+  font-size: 30px;
+    margin-bottom: 5px;
+    color:black
+}
+
+.modal__body {
+  font-size: 16px;
+    font-weight: 300;
+    margin: 0 0 3.2rem 0;
+    word-break: break-all;
+    padding: 20px;
+}
+.noremove {
+  display: none;
+}
+form .row {
+  padding: 10px 0;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+   font-size:14px}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  button {
+    justify-content: space-evenly;
+    background: #3f51b5;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 150px;
+    border-radius: 5px;
+    margin: 10px auto;
+    height: 50px;
+  }
+}
+.textred {
+  color: red;
+  font-weight: bold;
+}
